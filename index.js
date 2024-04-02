@@ -31,9 +31,9 @@ document.addEventListener('DOMContentLoaded', function () {
       <h3>${studentName}</h3>
       <p>has almost completed the</p>
       <p><strong>${courseName}</strong></p>
-      <p>with legendary perseverance and world-class bad-assery for never giving up</p>
+      <p>with legendary perseverance and world-class bad-assery for never giving up<ion-icon name="trophy-sharp" style="color: gold;"></ion-icon></p>
       <img src="logo.png" alt="Certificate Image" style="width: 400px; height: auto;">
-      <blockquote>${personalMessage}</blockquote>
+      <blockquote>${personalMessage}<ion-icon name="sparkles-sharp" style="color: gold;"></ion-icon></blockquote>
     `;
     
       //  Display the modal
